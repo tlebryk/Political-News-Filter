@@ -1,5 +1,8 @@
 # Political News Filter
 
+A fork from [Lukas](https://github.com/lukasgebhard/Political-News-Filter) implementation. Fixes one bug on my machine with keras model saving. 
+File formatting is a bit outdated but was only run once around June 20, 2022 before some additional changes to my file system and s3.  
+
 *Political News Filter* classifies English news articles regarding whether they cover policy topics.
 
 It uses a broad characterization of politics: Politics is about "who gets what, when, and how" [(Lasswell, 1936)](https://www.cambridge.org/core/journals/american-political-science-review/article/politics-who-gets-what-when-how-by-harold-d-lasswell-new-york-whittlesey-house-1936-pp-ix-264/90C407BEDE6963B3D2C84FF79C695E1E). As a result, *Political News Filter* may consider business news or tech news as political, depending on actual contents.
